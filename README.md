@@ -1,10 +1,21 @@
- 
+<div align="center">
 
-# 🧮 Mohib Hasan Math Quiz
+# 🧮 Mohib Hasan Math Whiz
 
 **A fast, modern math quiz game built with Java 17, Spring Boot, Thymeleaf and JDBC.**
 *Think fast. Calculate smart. Climb the Hall of Fame.*
 
+![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-6DB33F?logo=springboot&logoColor=white)
+![Thymeleaf](https://img.shields.io/badge/Thymeleaf-Templates-005F0F?logo=thymeleaf&logoColor=white)
+![H2](https://img.shields.io/badge/Database-H2-1021FF)
+![Maven](https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&logoColor=white)
+
+<br>
+
+<img src="docs/screenshots/01-home.png" alt="Math Whiz home screen" width="850">
+
+</div>
 
 ---
 
@@ -37,7 +48,8 @@ All answer checking is done **on the server** using reusable Java methods, so th
 ### 1. Welcome Screen
 Players enter their name and start a 4-question NORMAL difficulty round.
 
-<img src="docs/screenshots/01-home.png" alt="Home screen" width="850">
+ <img width="1328" height="689" alt="Screenshot 2026-11-09 180521" src="https://github.com/user-attachments/assets/d86d493f-e3f2-4844-a522-8b188a536755" />
+
 
 ### 2. Quiz Screen
 Four questions with their marks shown on each card. Maximum score: **10/10**.
