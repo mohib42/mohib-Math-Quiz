@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧮 Mohib Hasan Math Whiz
+#  Mohib Hasan Math Quiz
 
 **A fast, modern math quiz game built with Java 17, Spring Boot, Thymeleaf and JDBC.**
 *Think fast. Calculate smart. Climb the Hall of Fame.*
@@ -187,7 +187,7 @@ CREATE TABLE IF NOT EXISTS game_scores (
 ```
 
 <details>
-<summary><b>Optional: use MySQL instead of H2</b></summary>
+ 
 
 <br>
 
