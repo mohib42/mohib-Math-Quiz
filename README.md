@@ -13,9 +13,9 @@
 
 <br>
 
-<img src="docs/screenshots/01-home.png" alt="Math Whiz home screen" width="850">
 
-</div>
+
+
 
 ---
 
@@ -48,25 +48,27 @@ All answer checking is done **on the server** using reusable Java methods, so th
 ### 1. Welcome Screen
 Players enter their name and start a 4-question NORMAL difficulty round.
 
- <img width="1328" height="689" alt="Screenshot 2026-11-09 180521" src="https://github.com/user-attachments/assets/d86d493f-e3f2-4844-a522-8b188a536755" />
+ <img width="1260" height="600" alt="Screenshot 2026-11-09 182133" src="https://github.com/user-attachments/assets/2f201874-1cf4-45c2-a558-8bbd02626e19" />
+
 
 
 ### 2. Quiz Screen
 Four questions with their marks shown on each card. Maximum score: **10/10**.
+<img width="1230" height="617" alt="Screenshot 2026-11-09 182214" src="https://github.com/user-attachments/assets/4c0899af-544a-4ee4-b2ef-1ef9b9228011" />
 
-<img src="docs/screenshots/02-quiz.png" alt="Quiz screen with four questions" width="850">
 
-### 3. Hall of Fame (Leaderboard)
+
+### 3. (Leaderboard)
 Top 10 players: highest scores first, ties broken by the earliest play time.
 
-<img src="docs/screenshots/03-leaderboard.png" alt="Hall of Fame leaderboard" width="850">
+ <img width="1263" height="612" alt="Screenshot 2026-11-09 182339" src="https://github.com/user-attachments/assets/892bb5eb-4fd2-4bc7-b8ad-986e5e91f723" />
+
 
 ### 4. Saved Scores in the Database
 Every finished game is stored with the player name, score, difficulty and timestamp (shown here in MySQL Workbench).
 
-<img src="docs/screenshots/04-database.png" alt="game_scores table in MySQL Workbench" width="850">
+ <img width="1328" height="689" alt="Screenshot 2026-11-09 180521" src="https://github.com/user-attachments/assets/220e2012-f4cd-4984-9167-b8dd990caf73" />
 
----
 
 ## ✨ Features
 
