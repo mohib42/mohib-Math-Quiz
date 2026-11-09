@@ -5,17 +5,6 @@
 **A fast, modern math quiz game built with Java 17, Spring Boot, Thymeleaf and JDBC.**
 *Think fast. Calculate smart. Climb the Hall of Fame.*
 
-![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-6DB33F?logo=springboot&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-Templates-005F0F?logo=thymeleaf&logoColor=white)
-![H2](https://img.shields.io/badge/Database-H2-1021FF)
-![Maven](https://img.shields.io/badge/Build-Maven-C71A36?logo=apachemaven&logoColor=white)
-
-<br>
-
-<img src="docs/screenshots/01-home.png" alt="Math Whiz home screen" width="850">
-
-</div>
 
 ---
 
