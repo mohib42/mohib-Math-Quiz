@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="en" xmlns:th="http://www.thymeleaf.org"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math Whiz | Leaderboard</title><link rel="stylesheet" th:href="@{/css/style.css}"></head>
+<body><div class="shell"><header><a class="brand" th:href="@{/}"><b>π</b> MATH WHIZ</a><a th:href="@{/}">← Back to Home</a></header>
+<main class="content"><small class="eyebrow">HALL OF FAME</small><h1>Top <em>10 players.</em></h1><p class="muted">Highest scores first. Equal scores are ordered by earliest play time.</p>
+<div class="panel tablewrap"><p class="muted empty" th:if="${#lists.isEmpty(scores)}">No scores yet. Be the first player on the leaderboard!</p>
+<table th:unless="${#lists.isEmpty(scores)}"><thead><tr><th>RANK</th><th>PLAYER</th><th>SCORE</th><th>LEVEL</th><th>PLAYED AT</th></tr></thead><tbody>
+<tr th:each="s,i : ${scores}"><td class="rank" th:text="'#'+(${i.index}+1)">#1</td><td th:text="${s.playerName}">Player</td><td class="scorecell" th:text="${s.score}+'/10'">10/10</td><td th:text="${s.difficulty}">NORMAL</td><td th:text="${#temporals.format(s.playedAt,'dd MMM yyyy, hh:mm a')}">Date</td></tr>
+</tbody></table></div><a class="button" th:href="@{/}">Play Math Whiz →</a></main><footer>Top 10 scores stored using JDBC</footer></div></body></html>

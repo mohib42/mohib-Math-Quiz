@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en" xmlns:th="http://www.thymeleaf.org"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math Whiz | Game</title><link rel="stylesheet" th:href="@{/css/style.css}"></head>
+<body><div class="shell"><header><a class="brand" th:href="@{/}"><b>π</b> MATH WHIZ</a><span class="muted">PLAYER: <strong th:text="${playerName}"></strong></span></header>
+<main class="content"><small class="eyebrow">YOUR CHALLENGE</small><h1>Let’s test your <em>math skills.</em></h1><p class="muted">Answer all four questions. Trigonometry answers are accepted within ±0.01.</p>
+<form th:action="@{/submit}" method="post" class="questions"><article class="panel question" th:each="q,s : ${questions}">
+<div class="qtop"><b th:text="'Q'+(${s.index}+1)">Q1</b><small th:text="${q.marks}+' MARKS'">2 MARKS</small></div>
+<small class="eyebrow" th:text="${q.type=='PRIME'?'PRIME NUMBER':(q.type=='MOD'?'MODULUS OPERATION':'TRIGONOMETRY')}">TYPE</small>
+<h2 th:text="${q.prompt}">Question prompt</h2><input type="number" step="any" required th:name="'answer'+(${s.index}+1)" th:placeholder="${q.type=='PRIME'?'Enter 1 or 0':'Enter your answer'}"></article>
+<div class="submit-row"><span class="muted">Difficulty: <b>NORMAL</b> · Maximum score: <b>10/10</b></span><button>Submit Answers →</button></div></form></main>
+<footer>Take your time and check your answers before submitting.</footer></div></body></html>

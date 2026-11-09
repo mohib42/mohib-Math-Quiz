@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en" xmlns:th="http://www.thymeleaf.org"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Math Quiz | Welcome</title><link rel="stylesheet" th:href="@{/css/style.css}"></head>
+<body><div class="shell"><header><a class="brand" th:href="@{/}"><b>π</b> MATH QUIZ</a><a th:href="@{/leaderboard}">🏆 Leaderboard</a></header>
+<main class="hero"><section><small class="eyebrow">JAVA • MATH • CHALLENGE</small><h1>MOHIB HASAN<br><em>MATH QUIZ</em></h1><p>Think fast. Calculate smart. Prove your mathematical skills in four quick challenges.</p>
+<form class="panel" th:action="@{/start}" method="post"><label for="playerName">Enter your player name</label><input id="playerName" name="playerName" maxlength="100" placeholder="enter player name" required>
+<p class="error" th:if="${error}" th:text="${error}"></p><button>Start Game <span>→</span></button><small>4 questions: NORMAL difficulty</small></form></section>
+<div class="art"><div class="orbit"></div><div class="symbol pi">π</div><div class="symbol sigma">∑</div><div class="symbol root">√x</div><div class="symbol integral">∫</div><div class="bubble">10<small>POINTS</small></div></div></main>
+<div class="features"><div><b>01 / PRIME</b><span>Prime or not?</span></div><div><b>02 / MODULUS</b><span>Find the remainder</span></div><div><b>03–04 / TRIGONOMETRY</b><span>Sin, cosine and tangent</span></div></div>
+ </div></body></html>
