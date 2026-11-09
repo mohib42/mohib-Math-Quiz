@@ -1,4 +1,4 @@
-# MOHIB HASAN – MATH WHIZ
+# MOHIB HASAN – MATH QUIZ
 Java 17 + Spring Boot + Thymeleaf + JDBC + H2 mathematical game.
 
 ## Features
